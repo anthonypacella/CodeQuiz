@@ -189,6 +189,7 @@ function clearScores() {
 }
 
 function showHighScores() {
+    timeLeft = 1;
     resultsContainer.setAttribute("style","display:none"); 
     questionsContainer.setAttribute("style","display:none"); 
     completeContainer.setAttribute("style","display:none");
